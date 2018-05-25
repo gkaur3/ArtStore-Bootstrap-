@@ -1,0 +1,169 @@
+
+@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+@import url(https://fonts.googleapis.com/css?family=Karla);
+h1
+{
+	font-family: Gloria Hallelujah;
+	margin-top:0px;
+}
+.nav a
+{
+	color:white;
+	font-family:karla; 
+}
+span.glyphicon.glyphicon-shopping-cart.white, span.glyphicon.glyphicon-gift.white
+{
+	color:white;
+}
+.nav p , h3
+{
+	font-family:karla;
+	font-family:karla;
+}
+.white
+{
+	color:white;
+}
+
+.mainContainer
+{
+	margin-top:8.5rem;
+	font-size:small;
+}
+h4
+{
+	color:red;
+	font-weight:bold;
+	font-family:karla;
+}
+h5
+{
+	font-weight:bold;
+	font-family:karla;
+}
+h3
+{
+	font-weight:bold;
+	font-family:karla;
+}
+
+#wishlist, #shoppingcart
+{
+	color: steelblue;
+	
+	font-size:15px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 6px;
+}
+div.panel-body
+{
+	padding-left:10px;
+	padding-top:6px;
+}
+.media-body a
+{
+	padding:0px;
+}
+#secondPanel  a
+{
+	padding-left:15px;
+}
+#text1
+{
+	font-weight:bold;
+}
+#text2
+{
+	color:#996666;
+}
+.btn.btn-xs
+{
+	background-color:#337ab7; 
+	border:1pt solid #337ab7;
+}
+.footer-bottom {
+    background-color: #15224f;
+    min-height: 30px;
+    width: 100%;
+}
+
+.paddingContent{
+	padding-left:1.4rem;
+	padding-right:1.4rem;
+	padding-bottom:1.4rem;
+}
+
+.rowMargin
+{
+	margin-top:2em;
+}
+.headerMargin
+{
+	margin-top: 3em;
+	font-size:1.1em;
+}
+
+.jumbotron 
+{
+	padding:50px;
+	padding-top:50px;
+	position:relative;
+    background: url("images/whistler2.jpg") center;
+	background-size:cover;
+	background-position:auto 100%;
+	height:100%;
+}
+
+.jumbotron p
+{
+	color:white;
+	font-family:karla;
+}
+.jumbotron h3
+{
+	color:white;
+	font-family:karla;
+	
+}
+.img1
+{
+	margin-left:14rem;
+	margin-top:6rem;
+}
+#details1
+{
+	margin-left:12rem;
+	margin-bottom:7rem;
+}
+#details2
+{
+	margin-left:12rem;
+	margin-bottom:7rem;
+}
+#details3
+{
+	margin-left:12rem;
+	margin-bottom:7rem;
+}
+.carousel-content {
+  position: absolute;
+  bottom: 80%;
+  left: 7%;
+
+  color: white;
+}
+footer
+{
+	background-color:#e6e6e6;
+	width:100%;
+	padding-top:1.5rem;
+	position:relative;
+
+}
+#footerElement1 , #footerElement2, #footerElement3,#footerElement4
+{
+	font-size:1.7rem;
+	font-weight:bold;
+	font-family:karla;
+}

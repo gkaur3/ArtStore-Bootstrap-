@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Chapter5</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" >
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"> 
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet"  type="text/css" href="custom.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+	  <link href='https://fonts.googleapis.com/css?family=Sans+Serif' rel='stylesheet' type='text/css'/>
+   </head>
+   
+   <body class="container">
+	<!-- NavBar -->
+      <nav class="navbar navbar-inverse no-radius blues nope" id="my-navbar" >
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#navbar-collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+			   
+			  </div>
+		<!-- navbar Header-->
+
+		<div class="collapse navbar-collapse" id="navbar-collapse">           
+               <ul class="nav navbar-nav pull-left">
+                  <p class="nav navbar-text">Welcome to Art Store,
+					<a href="#">Login</a>
+					or
+					<a href="#">Create new account</a>
+				  </p> 
+				</ul>		
+				<ul class="nav navbar-nav pull-right">
+					<p class="nav navbar-text">
+						<span class="glyphicon glyphicon-user white"></span>
+						<a href="#">My Account</a>
+					</p>
+						
+					<p class="nav navbar-text">
+						<span class="glyphicon glyphicon-gift white"></span>
+						<a href="#">Wish List</a>
+					</p>
+							
+					<p class="nav navbar-text">
+						<span class="glyphicon glyphicon-shopping-cart white"></span>
+						<a href="#">Shopping Cart</a>
+					</p>
+						
+					<p class="nav navbar-text">
+						<span class="glyphicon glyphicon-arrow-right white"></span>
+						<a href="#">Checkout</a>
+					</p>				
+				</ul>
+		</div>
+	</nav> <!--End 1st navbar -->
+		<div class="row">
+				<div class="col-md-8"> 
+						 <h1>Art Store</h1>
+				</div>
+				
+				<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="input-group">
+								<input type="text" class="form-control" placeholder="Search"/>
+									<span  class="input-group-addon pull-center">
+										<span class="glyphicon glyphicon-search"></span>
+									</span>
+							</div>
+							</div>
+							<div class="col-md-4">
+							</div>
+						</div>
+				</div>
+
+		</div> <!-- search box line ends -->    
+		
+		<!-- second navbar start-->
+		<!-- NavBar -->
+      <nav class="navbar navbar-default no-radius blues nope" id="my-navbar" >
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#navbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+			   
+			  </div>
+		<!-- navbar Header-->
+		
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav">
+					<li ><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li class="active"><a href="work.html">Art Works</a></li>
+					<li><a href="artists">Artists</a></li>
+					 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Specialists <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Randy Conolly</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+	</nav> <!--2nd End navbar -->
+         <div class="row">
+            <div class="col-md-10">
+               <div class="row">
+                  <div class="col-md-5">
+                     <h3>Self-potrait in a straw Hat</h3>
+					  By: <a href="#">Louise Elisabeth Lebrun </a>
+					  <p></p>
+                     <img src="images/113010-m.jpg" class="img-thumbnail" alt="Cinque Terre">
+                  </div>
+                  <div class="col-md-7">
+                     <p class="mainContainer">The painting appears, after cleaning, to be an autograph replica of a picture, the original of which was painted in Brussels in 1782 in free imitation of Rubens's 'Chapeau de Paille', which LeBrun had seen in Antwerp. It was exhibited in Paris in 1782 at the Salon de la Correspondance. LeBrun's original is recorded in a private collection on France.
+                     </p>
+                     <h4> $700</h4>
+					<div class="btn-group">
+					  <button type="button" class="btn btn-default">
+						<span class="glyphicon glyphicon-gift" style="color:steelblue"></span><span id="wishlist"> Add to Wishlist</span>
+					 </button>
+					 <button type="button" class="btn btn-default">
+						<span class="glyphicon glyphicon-shopping-cart" style="color:steelblue;"></span><span id="shoppingcart"> Add to Shopping Cart</span>
+					 </button>
+					</div>
+                     <p></p>
+                     <div class="panel panel-default">
+                        <!-- Default panel contents -->
+                        <div class="panel-heading">Product Details</div>
+                        <!-- Table -->
+                        <table class="table table-sm">
+                           <tbody>
+                              <tr>
+                                 <th scope="row">Date:</th>
+                                 <td>1762</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Medium:</th>
+                                 <td colspan="2">Oil on Canvas</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Dimensions</th>
+                                 <td colspan="2">98cm x 71cm</td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Home:</th>
+                                 <td colspan="2"><a href="#">National Gallery,</a> <a href="#">London</a></td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Genres:</th>
+                                 <td colspan="2"><a href="#">Realism,</a><a href="#"> Rococo</a></td>
+                              </tr>
+                              <tr>
+                                 <th scope="row">Subject:</th>
+                                 <td colspan="2"><a href="#">People,</a><a href="#"> Arts</a></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div> <!-- Second Row End -->
+               
+			   
+			   <div class="row">
+				<div class="col-md-10">
+					<h3 class="rowHeader">Similar Products</h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3">
+					<div class="container img-thumbnail">
+						<img src="images/thumbs/116010.jpg" class="img-thumbnail center-block" alt="Artist Holding a Thistle">
+						<p class="imgDesc"><a href="#">Artist Holding a Thistle</a></p>
+						<div class="btn-group-xs">
+							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-info-sign"></span> View</button>
+							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-gift"></span> Wish</button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container img-thumbnail">
+						<img src="images/thumbs/120010.jpg" class="img-thumbnail center-block" alt="Portrait of Elanor of Toledo">
+						<p class="imgDesc"><a href="#">Portrait of Elanor of Toledo</a></p>
+						<div class="btn-group-xs">
+							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-info-sign"></span> View</button>
+							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-gift"></span> Wish</button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container img-thumbnail">
+						<img src="images/thumbs/107010.jpg" class="img-thumbnail center-block" alt="Madame de Pompadour">
+						<p class="imgDesc"><a href="#">Madame de Pompadour</a></p>
+						<div class="btn-group-xs">
+							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-info-sign"></span> View</button>
+							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-gift"></span> Wish</button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="container img-thumbnail">
+						<img src="images/thumbs/106020.jpg" class="img-thumbnail center-block" alt="Girl with a Pearl Earring">
+						<p class="imgDesc"><a href="#">Girl with a Pearl Earring</a></p>
+						<div class="btn-group-xs">
+							<button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-info-sign"></span> View</button>
+							<button type="button" class="btn btn-success"><span class="glyphicon glyphicon-gift"></span> Wish</button>
+							<button type="button" class="btn btn-info"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+						
+		 </div> <!-- Third Row End -->
+     
+              
+			<div class="col-md-2">
+				<div class="panel panel-primary">
+					<div class="panel-heading">Cart</div>
+					<div class="panel-body">
+						<div class="media">
+							<div class="media-left">
+								<img src="images/tiny/116010.jpg"  class="img-fluid" alt="Responsive image" />
+							</div>
+							<div class="media-body">
+								<a href="#">Artist Holding a Thistle</a>
+							</div>
+							</div>
+							<div class="media">
+								<div class="media-left">
+									<img src="images/tiny/113010.jpg"  class="img-fluid" alt="Responsive image" />
+								</div>
+								<div class="media-body">
+									<a href="#">Self-portrait in a Straw Hat</a>
+								</div>
+								</div>
+						
+						<span id="text1"> Subtotal: </span><span id="text2">$1200</span>
+						
+						<button type="button" class="btn btn-info btn-xs" >
+							<span class="glyphicon glyphicon-exclamation-sign"></span> Edit
+						</button>
+	
+	
+						<button type="button"   class="btn btn-info btn-xs" >
+							<span class="glyphicon glyphicon-arrow-right"></span> Checkout
+						</button>
+						
+						
+					</div>
+				</div>
+				
+				<div class="panel panel-info">
+					<div class="panel-heading">Popular Artists</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Caravaggio</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Cezanne</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Matisse</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Michkengelo</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Picasso</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Raphael</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Van Gogh</a>
+						</div>
+				</div>
+				<div class="panel panel-info">
+					<div class="panel-heading">Popular Genres</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Baroque</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Cubism</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Impressionism</a>
+						</div>
+						<div class="panel-body" id="secondPanel">
+							<a href="#">Renaissance</a>
+						</div>
+						
+				</div>
+			</div>
+				
+			</div> <!-- first row with two columns end -->
+		
+</body>
+	
+		 <footer class="container-fluid">
+         <div class="row ">
+            <div class="col-md-3">
+				<span class="glyphicon glyphicon-info-sign"></span><span id="footerElement1">About US</span><p></p>
+				<p>Lorem lpsum is simply dummy text of the printing and typesetting industry. Lorem lpsum has been the industry's standard dummy text ever since the 1500s.</p>
+            </div>
+            <div class="col-md-3">
+				<span class="glyphicon glyphicon-earphone"></span><span id="footerElement2"> Customer Service</span><p></p>
+				<p><a href="#">Delivery Information</a></p>
+				<p><a href="#">Privacy Policy</a></p>
+				<p><a href="#">Shipping</a></p>
+				<p><a href="#">Terms and Conditions</a></p>
+            </div>
+            <div class="col-md-3">
+                 <span class="glyphicon glyphicon-shopping-cart"></span><span id="footerElement3">Just Ordered</span><p></p> 
+				 <div class="media">
+					<div class="media-left">
+						<img src="images/tiny/13030.jpg"  class="img-fluid" alt="Responsive image" /> 
+					</div>
+					<div class="media-body">
+						<a href="#">Arrangment in Grey and Black </a><br/>
+					</div>
+				 </div>
+				 
+				 <div class="media">
+					<div class="media-left">
+						<img src="images/tiny/116010.jpg"  class="img-fluid" alt="Responsive image" />
+					</div>
+					<div class="media-body">
+						<a href="#">Artist Holding a Thistle</a><br/>
+					</div>
+				 </div>
+				<div class="media">
+					<div class="media-left">
+						<img src="images/tiny/113010.jpg"  class="img-fluid" alt="Responsive image" /> 
+					</div>
+					<div class="media-body">
+						<a href="#">Self-portrait in a Straw Hat </a><br/>	 
+					</div>
+				</div>
+			</div>
+            <div class="col-md-3"> 
+				<form action="https://web.cs.kent.edu/~aalali1/wb1f17/form/process.php">
+					 <span class="glyphicon glyphicon-envelope"></span><span id="footerElement4"> Contact Us</span><p></p>
+					<div class="form-group row">
+					<div class="col-md-9">
+						<input type="email" class="form-control" placeholder="Enter name">
+					</div>
+					</div>
+					
+					<div class="form-group row">
+					<div class="col-md-9">
+						<input type="password" class="form-control" placeholder="Enter mail">
+					</div>
+					</div>
+					<div class="form-group row">
+					<div class="col-md-9">
+						<textarea class="form-control" rows="4" placeholder="Enter message" ></textarea>
+					</div>
+					</div>
+					<div class="form-group row">
+					<div class="col-md-9">
+					<button  class="btn btn-primary btn-sm btn-block ">Submit</button>
+					</div>
+					</div>
+				</form>
+			</div>		
+	</div>
+</footer> 
+	<div class="container-fluid">
+	<div class="row">
+		 <nav class="navbar navbar-inverse no-radius blues nope" id="my-navbar" >
+		 <div class="collapse navbar-collapse" id="navbar-collapse">           
+               <ul class="nav navbar-nav pull-left">
+                  <p class="nav navbar-text">All images are copyright to their owners. This is just a hypothetical site
+				  </p> 
+				</ul>
+				<ul class="nav navbar-nav pull-right">
+				<p class="nav navbar-text">&copy 2014 copyright Art Store</p>
+				</ul>
+		 </div>
+	</div>
+	</div>
+
+</html>
